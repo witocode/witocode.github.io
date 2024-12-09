@@ -1,0 +1,123 @@
+@import "colores_general.css";
+@import "generales.css";
+@import "header.css";
+@import "barner.css";
+@import "personas.css";
+@import "tarjetas.css";
+@import "iconos.css";
+@import "contacto.css";
+@import " footer.css";
+
+/*INICIO RESPONSE GENERAL*/
+@media (max-width: 1190px){
+    /*INICIO MENU*/
+    .menu a{
+        font-size: 12px;
+    }
+    /*FIN MENU*/
+    /*INICIO FOOTER*/
+    .container_footer_grid { 
+        display: grid;
+        grid-template-columns: 1fr 1.4fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "area_1 area_1 area_1"
+          "area_2 area_3 area_4";
+      }
+      /*FIN FOOTER*/
+}
+@MEDIA(max-width: 858px){
+    /*INICIO MENU*/
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: var(--color-nav-ul);
+        right: -100%;
+        top: 0;
+        text-align: left;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: all 0.8s;
+    }
+    .menu li{
+        margin: 5px 0;
+        line-height: 32px;
+        display: block;
+        margin-bottom: 5px;
+        /*outline: 1px solid green;*/
+        --webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+    .menu li a{
+        font-size: 18px;
+        font-weight: 300;
+        font-style: normal;
+        /*background: url(whatsapp.png) no-repeat left top;*/
+        color: #ddd;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        --webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        width: 100%;
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ nav .menu{
+        right: 0;
+    }
+    /*FIN MENU*/
+    /*INICIO BARNER*/
+    .contenido-barner h3{
+        font-size: 20px;
+        font-weight: 400;
+        padding: 10px 0px;
+    }
+    .contenido-barner h3 span{
+        font-weight: 600;
+    }
+    /*FIN BARNER*/
+    /*INICIO PERSONAS*/
+    #personas{
+        flex-direction: column;
+    }
+    /*FIN PERSONAS*/
+    /*INICIO ICONOS*/
+    .contenido-iconos{
+        flex-direction: column;
+    }
+    .contenido-iconos div{
+        border: none;
+    }
+    /*FIN ICONOS*/
+    /*INICIO FORMULARIO DE CONTACTO*/
+    .datos-form{
+        flex-direction: column;
+    }
+    /*FIN FORMULARIO DE CONTACTO*/
+    /*INICIO FOOTER*/
+    .container_footer_grid { 
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px;
+        grid-template-areas:
+            "area_1"
+            "area_2"
+            "area_3"
+            "area_4";
+    }
+    /*FIN FOOTER*/
+/*FIN RESPONSE*/
+}

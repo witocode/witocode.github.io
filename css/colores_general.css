@@ -1,0 +1,30 @@
+:root {
+    --color-principal-logo: #0eb050;
+    --color-boton-empezar: #4fa776ad;
+    --color-boton-empezar-hover: #0eb050;
+    --color-boton-sabermas: #4fa776ad;
+    --color-boton-sabermas-hover: #0eb050;
+    --color-boton-enviarcorreo: #4fa776ad;
+    --color-boton-enviarcorreo-hover: #0eb050;
+    --navbar-shallow-color: #4d4d5c;
+
+    --color-fondo-section: rgba(220, 220, 220, .4);
+    --color-footer: rgba(220, 220, 220, .4);
+    /*--color-footer: linear-gradient(#FFFFFF, #DCDCDC);*/
+
+
+    --color-tarjeta-linea: #e3ddd4;
+    --color-tarjeta-title-front: #FFFFFF;
+    --color-tarjeta-title-back: #0eb050;
+    --color-tarjeta-link: #118cbc;
+    --color-tarjeta-link-hover: #0eb050;
+    --color-tarjeta-texto: #FFFFFF;
+
+    --color-footer-linea: #e3ddd4;
+    --color-footer-logo: #0eb050;
+    --color-nav-ul: rgb(1,49,161);
+    --color-footer-title: #4d4d5c;
+    --color-footer-link: #4d4d5c87;
+    --color-footer-link-hover: #0eb050;
+    --color-footer-texto: #4d4d5c87;
+  }

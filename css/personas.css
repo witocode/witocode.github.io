@@ -1,0 +1,49 @@
+/*INCIO PERSONAS*/
+.personas{
+    scroll-margin-top: 9ex;
+}
+#personas{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-fondo-section);
+}
+#personas img{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+#personas div{
+    padding: 30px 30px;
+}
+#personas div h4{
+    color: #4d4d5c;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 0px;
+}
+#personas div p{
+    color: #4d4d5c87;
+    font-size: 16px;
+    font-style: normal;
+}
+.boton-saber-mas{
+    display: inline-block;
+    text-decoration: none;
+    color: #0eb050;
+    padding: 10px 30px;
+    border: 1px solid var(--color-boton-sabermas);
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+.boton-saber-mas:hover{
+    background: var(--color-boton-sabermas-hover);
+    color: #ffff;
+}
+/*FIN PERSONAS*/

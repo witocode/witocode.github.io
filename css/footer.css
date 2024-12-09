@@ -1,0 +1,86 @@
+/*INICIO FOOTER*/
+footer{
+    width: 100%;
+    background: var(--color-footer);
+    color: #cccccc4a;
+    padding: 50px 0px;
+}
+.container_footer_grid { 
+    display: grid;
+    grid-template-columns: 2fr .9fr 1.4fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "area_1 area_2 area_3 area_4";
+    max-width: 1200px;
+    margin: auto auto;
+    justify-content: space-between;
+}
+.area_1 {
+    grid-area: area_1;
+}
+.area_2 { 
+    grid-area: area_2;
+}
+.area_3 {
+    grid-area: area_3;
+}
+.area_4 {
+    grid-area: area_4;
+}
+.area_1, .area_2, .area_3, .area_4{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.area_1 .logo img{
+    width: 180px;
+}
+.area_1 .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--color-footer-texto);
+}
+.area_2 h2, .area_3 h2, .area_4 h2{
+    margin-bottom: 5px;
+    color: var(--color-footer-title);
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    text-transform:uppercase
+}
+.area_2 a, .area_3 a, .area_4 a{
+    margin-top: 2px;
+    color: var(--color-footer-link);
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+}
+.area_2 a:hover, .area_3 a:hover, .area_4 a:hover{
+    opacity: 0.8;
+    color: var(--color-footer-link-hover);
+    transition: all 0.3s;
+}
+.area_4 a .fab{
+    font-size: 20px;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 16px;
+    font-style: normal;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: var(--color-footer-title);
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: var(--color-footer-linea);
+}
+/*FIN FOOTER*/

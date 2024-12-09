@@ -1,0 +1,42 @@
+/*INICIO ICONOS*/
+.iconos{
+    scroll-margin-top: 9ex;
+}
+#iconos{
+    padding: 0px 50px;
+    background: var(--color-fondo-section);
+}
+.contenido-iconos{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.contenido-iconos div{
+    flex: 1;
+    margin: 20px 0px;
+    border-right: 1px solid rgba(227, 221, 212, .8);
+}
+#icono-mobile{
+    border: none;
+}
+.contenido-iconos div i{
+    color: #2F4F4F;
+}
+.contenido-iconos div h6{
+    color: #4d4d5c;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 0px;
+}
+.contenido-iconos div p{
+    color: rgba(77, 77, 92, 0.55);
+    font-size: 16px;
+    font-style: normal;
+}
+.boton-iconos{
+    text-align: center;
+    padding-bottom: 50px;
+}
+/*FIN ICONOS*/
